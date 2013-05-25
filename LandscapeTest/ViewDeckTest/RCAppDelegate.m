@@ -8,6 +8,7 @@
 
 #import "RCAppDelegate.h"
 #import "IIViewDeckController.h"
+#import "IIWrapController.h"
 
 @implementation RCAppDelegate
 
@@ -31,7 +32,8 @@
 //    [rootVC addChildViewController:viewDeckVC];
 //    [rootVC.view addSubview:viewDeckVC.view];
     
-    self.window.rootViewController = viewDeckVC;
+//    self.window.rootViewController = viewDeckVC;
+    self.window.rootViewController = [[IIWrapController alloc] initWithViewController:viewDeckVC];
     [self.window makeKeyAndVisible];
     return YES;
 }

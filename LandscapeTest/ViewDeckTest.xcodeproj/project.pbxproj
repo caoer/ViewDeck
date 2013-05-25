@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0908D83F1750A892007AF659 /* IIWrapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AA758E174D7D6200EDC3C4 /* IIWrapController.m */; };
+		0908D8401750A894007AF659 /* IISideController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AA758A174D7D6200EDC3C4 /* IISideController.m */; };
 		09AA756D174D7CFA00EDC3C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AA756C174D7CFA00EDC3C4 /* UIKit.framework */; };
 		09AA756F174D7CFA00EDC3C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AA756E174D7CFA00EDC3C4 /* Foundation.framework */; };
 		09AA7571174D7CFA00EDC3C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AA7570174D7CFA00EDC3C4 /* CoreGraphics.framework */; };
@@ -185,6 +187,8 @@
 				09AA7579174D7CFA00EDC3C4 /* main.m in Sources */,
 				09AA757D174D7CFA00EDC3C4 /* RCAppDelegate.m in Sources */,
 				09AA7591174D7E5B00EDC3C4 /* IIViewDeckController.m in Sources */,
+				0908D83F1750A892007AF659 /* IIWrapController.m in Sources */,
+				0908D8401750A894007AF659 /* IISideController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +307,7 @@
 				09AA7588174D7CFA00EDC3C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
